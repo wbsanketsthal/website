@@ -1,0 +1,159 @@
+@media screen and (max-width:991px){
+	.servicesub {
+	    width: 31%;
+	}
+}
+
+@media screen and (max-width:740px){
+
+	:root{
+		--heading1: 30px;
+    	--heading2: 25px;
+		--para:14px;
+		--para-big:16px;
+		--para-small:12px;
+	}
+
+	.p0{
+		padding:0 15px;
+	}
+
+	.banner-slide.slick-slide {
+	    padding: 55px 0 0;
+	}
+
+	.banner-slide.slick-slide h1 {
+	    font-size: 50px;
+	    color: var(--white);
+	    line-height: 65px;
+	}
+
+	.banner-slide.slick-slide p {
+	    font-size: 18px;
+	    line-height: 31px;
+	}
+
+	.servicesub h4{
+		line-height:25px;
+	}
+
+	.ourservices-in,
+	.footflex{
+		padding:40px 0;
+	}
+
+	.ourservices-in h2, footer h2{
+		line-height:35px;
+	}
+}
+
+@media screen and (max-width:500px){
+	.tophead{
+		display:none;
+	}
+
+	.logo{
+		width:100%;
+		text-align:center;
+		padding:5px 0 8px;
+	}
+
+	.logo h2{
+		text-align:center;
+	}
+
+	.menulist{
+		width:100%;
+		justify-content:center;
+	}
+
+	.menulist a{
+		padding:8px 20px 5px;
+		margin:0;
+	}
+
+	.menulist a:hover:before{
+		display:none;
+	}
+
+	header{
+		padding:5px 0;
+	}
+
+	header.fixednow{
+		background:var(--footerbg);
+	}
+
+	.banner-slide.slick-slide h1 {
+	    font-size: 40px;
+	    color: var(--white);
+	    line-height: 60px;
+	}
+
+	span.dash{
+		margin:10px auto 15px;
+	}
+
+	.banner-slide.slick-slide p {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+
+	.slick-dots{
+		bottom: -105%;
+	}
+
+	.ourservices-in, .footflex {
+	    padding: 30px 0;
+	}
+
+	.ourservices-in h2, footer h2{
+		margin:0 0 20px;
+	}
+
+	.servicesub{
+		width:46%;
+		margin:0 2% 20px;
+		padding:20px 10px;
+	}
+
+	.servicethumb{
+		width:35px;
+		height:35px;
+		margin:0 auto 15px;
+	}
+
+	.servicethumb img{
+		width:35px;
+	}
+
+	.servicesub h4 {
+		font-size:var(--para);
+	    line-height: 24px;
+	}
+
+	.contactform{
+		width:95%;
+		margin:0 auto;
+		padding:20px;
+	}
+
+	.contactform form .form-group{
+		width:100% !important;
+		margin:0 0 15px !important;
+	}
+
+	.contactform form .form-group .form-control{
+		line-height:23px;
+	}
+
+	a.chat-wp,
+	.okewa-pulse_3{
+		width:40px;
+		height:40px;
+	}
+
+	a.chat-wp .fa{
+		font-size:25px;
+	}
+}
